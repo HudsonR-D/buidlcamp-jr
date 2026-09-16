@@ -1,0 +1,17 @@
+# Official source register
+Reviewed 2026-09-16. Provider pages can change; verify before enrollment. These are independent references, not partnerships or redistributed courses.
+
+| Pathway / topic | Evidence |
+|---|---|
+| CodeAI / Code.org Express | [Grades 3–8, self-paced, free curriculum](https://code.org/en-US/curriculum/computer-science-fundamentals). [Printable certificates](https://support.code.org/hc/en-us/articles/204090698-Where-can-I-print-certificates-for-my-students) are accessible without every course item being completed, so they are described as completion records rather than independently verified mastery. |
+| IBM AI Foundations | [Issuer's credential criteria](https://www.credly.com/org/ibm-skillsbuild-students/badge/ai-foundations): free, course, design challenge, final assessment 80%+. [High school catalog](https://skillsbuild.org/learning-catalog/high-school-catalog) and [student terms](https://skillsbuild.org/terms-of-use-students-and-educators) govern enrollment and consent. |
+| Harvard CS50x | [Free certificate requirements](https://cs50.harvard.edu/x/certificate/): 70% on required work and final project. [FAQ](https://cs50.harvard.edu/x/faqs/) suggests 12+ material suitability but separate account rules apply. BuidlCamp recommends 13+ with guidance; paid edX verification is separate. |
+| Google AI Essentials | [Official five-module course and certificate](https://grow.google/ai-essentials/). Paid; the checked US/Canada page lists $49/month after trial, with regional/platform variation. The app avoids a fixed price promise. [Coursera terms](https://www.coursera.org/about/terms) prohibit under-13 use and impose additional regional/contract requirements. |
+| Anthropic AI Fluency | [Course](https://academy.claude.com/courses/ai-fluency-framework-foundations) and [Academy FAQ](https://academy.claude.com/help/faq): free completion badge after assessment. Listed conservatively for adults; [Claude account requirements](https://support.claude.com/en/articles/8114491-get-started-with-claude) remain separate. |
+| Scratch | [Scratch Foundation](https://www.scratchfoundation.org/home) describes free creative coding. This is a project pathway, with no promise of an MIT certificate. |
+| GitHub age and account ownership | [Terms](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service): under-13 accounts are prohibited, regional minimum ages may be higher, personal logins are not shared. |
+| GitHub App security | [Best practices](https://docs.github.com/en/apps/creating-github-apps/about-creating-github-apps/best-practices-for-creating-a-github-app), [user authorization](https://docs.github.com/en/apps/creating-github-apps/authenticating-with-a-github-app/generating-a-user-access-token-for-a-github-app), [App manifests](https://docs.github.com/en/apps/sharing-github-apps/registering-a-github-app-from-a-manifest). |
+| Hosting | [Workers static assets](https://developers.cloudflare.com/workers/static-assets/) and [D1](https://developers.cloudflare.com/d1/). |
+| Accessibility criteria | [WCAG 2.2](https://www.w3.org/WAI/WCAG22/quickref/): contrast, keyboard, focus visibility, reflow, target size, orientation, and motion. Automated checks do not establish conformance. |
+
+No professional certification is issued by BuidlCamp. Certificates, badges, portfolio records, and professional credentials are intentionally distinguished.

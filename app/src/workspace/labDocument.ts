@@ -1,0 +1,3 @@
+export function labDocument(title: string, body: string, script: string) {
+  return `<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${title}</title><style>body{font:18px system-ui;margin:24px;background:#f3f8fa;color:#0d1932}button,input{font:inherit;min-height:44px;margin:6px;padding:8px}button:focus-visible{outline:3px solid #006071}#grid{display:grid;grid-template-columns:repeat(8,28px);gap:3px}.pixel{height:28px;background:#e1e9ef}.on{background:#006071}</style><h1>${title}</h1>${body}<script>${script}</script></html>`;
+}

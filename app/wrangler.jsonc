@@ -1,0 +1,51 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "buidlcamp-jr",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-09-16",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*"],
+  },
+  "observability": {
+    "enabled": false,
+  },
+  "vars": {
+    "APP_ORIGIN": "https://buidl.hudsonrnd.com",
+    "RELEASE": "development",
+  },
+  "triggers": {
+    "crons": ["17 * * * *"],
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "buidlcamp-jr-sessions",
+      "database_id": "179a4577-6b52-4c4a-92a2-eeb9f98c78fa",
+      "migrations_dir": "worker/migrations",
+    },
+  ],
+  "env": {
+    "staging": {
+      "name": "buidlcamp-jr-staging",
+      "vars": {
+        "APP_ORIGIN": "https://buidlcamp-jr-staging.hudsonr3d.workers.dev",
+        "RELEASE": "staging",
+      },
+      "d1_databases": [
+        {
+          "binding": "DB",
+          "database_name": "buidlcamp-jr-staging-sessions",
+          "database_id": "bfa48ec3-be91-47bc-9ede-c00c706e6d59",
+          "migrations_dir": "worker/migrations",
+        },
+      ],
+      "triggers": {
+        "crons": ["17 * * * *"],
+      },
+    },
+  },
+  "account_id": "8ab3bd1d23dbe923373456ac00e4e7df",
+}

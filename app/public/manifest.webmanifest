@@ -1,0 +1,23 @@
+{
+  "icons": [
+    {
+      "sizes": "192x192",
+      "src": "./icon-192.png",
+      "type": "image/png"
+    },
+    {
+      "sizes": "512x512",
+      "purpose": "any maskable",
+      "src": "./icon-512.png",
+      "type": "image/png"
+    }
+  ],
+  "name": "BuidlCamp",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "./",
+  "start_url": "./",
+  "description": "Self-paced coding and AI learning for ages 10 and up.",
+  "short_name": "BuidlCamp",
+  "theme_color": "#006071"
+}

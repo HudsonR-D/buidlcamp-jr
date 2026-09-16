@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2023",
+    "lib": ["ES2023"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "types": ["@cloudflare/workers-types"],
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "strict": true,
+    "erasableSyntaxOnly": true
+  },
+  "include": ["worker/**/*.ts", "server/ai.mjs"]
+}

@@ -23,6 +23,10 @@ This record distinguishes implementation checks from live services and human val
 - Staging rollback was observed serving version `42ebb7af-537a-4820-82fc-c340c853ab54` (`acceptance-20260916`) before restoring and independently observing `79bbf4eb-28ad-4069-8366-ae12e314294e` (`86db327ff63e6a5b340fe3024bd821525db4af0e`). Edge propagation was allowed before asserting either result.
 - Deployment credentials are separate, selected-Worker Editor tokens in main-only GitHub environments with a required maintainer reviewer. Tokens expire 2026-12-15 and must be rotated beforehand. Secret scanning, push protection, dependency checks, and private vulnerability reporting are enabled.
 
+## Remaining infrastructure acceptance
+
+- Protected GitHub deployment run `35113595731` passed all acceptance jobs, then failed at Cloudflare service metadata authorization with the selected-Worker Editor token. One retry with identical permissions failed again. Tokens remain restricted to their individual Workers. Production is deployed and verified through the approved operator Wrangler flow; automated GitHub deployment is **not yet operational**. Resolve the provider/CLI permission compatibility and demonstrate a successful staging deployment before promoting through that workflow.
+
 ## Checks requiring people or external access
 
 - Physical iPad in both orientations, touch/keyboard interruption, VoiceOver, installed/offline reopening, and interrupted saves: **not performed**. Browser WebKit/device dimensions do not substitute for a physical iPad.

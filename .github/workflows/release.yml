@@ -44,4 +44,4 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           RELEASE_SHA: ${{ github.sha }}
-        run: npx wrangler deploy --var RELEASE:$RELEASE_SHA
+        run: npx wrangler deploy --env "" --var RELEASE:$RELEASE_SHA

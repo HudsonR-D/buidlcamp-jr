@@ -31,6 +31,7 @@
     "app/public/theme.js",
     "app/scripts/build-offline.mjs",
     "app/scripts/license-notices.mjs",
+    "app/scripts/privacy-page.mjs",
     "app/scripts/program-audit.ts",
     "app/server.mjs",
     "app/server/ai.mjs",

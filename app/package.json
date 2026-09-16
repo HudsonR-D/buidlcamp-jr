@@ -16,7 +16,8 @@
     "test:release": "node tests/release-browser.cjs",
     "review:program": "node --experimental-strip-types scripts/program-audit.ts",
     "review:licenses": "node scripts/license-notices.mjs",
-    "test:accessibility": "node tests/accessibility.cjs"
+    "test:accessibility": "node tests/accessibility.cjs",
+    "review:privacy": "node scripts/privacy-page.mjs"
   },
   "dependencies": {
     "@codemirror/lang-html": "^6.4.12",

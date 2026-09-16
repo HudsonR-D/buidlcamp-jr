@@ -36,6 +36,7 @@ jobs:
         run: |
           npm run review:program
           npm run review:licenses
+          npm run review:privacy
           git diff --exit-code
         working-directory: app
       - name: Scan production assets

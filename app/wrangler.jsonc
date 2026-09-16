@@ -3,6 +3,8 @@
   "name": "buidlcamp-jr",
   "main": "worker/index.ts",
   "compatibility_date": "2026-09-16",
+  "workers_dev": false,
+  "routes": [{ "pattern": "buidl.hudsonrnd.com", "custom_domain": true }],
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",
@@ -30,6 +32,8 @@
   "env": {
     "staging": {
       "name": "buidlcamp-jr-staging",
+      "workers_dev": true,
+      "routes": [],
       "vars": {
         "APP_ORIGIN": "https://buidlcamp-jr-staging.hudsonr3d.workers.dev",
         "RELEASE": "staging",

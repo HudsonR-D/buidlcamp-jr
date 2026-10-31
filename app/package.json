@@ -43,6 +43,6 @@
     "prettier": "^3.9.6",
     "typescript": "~6.0.2",
     "vite": "^8.1.1",
-    "wrangler": "^4.132.0"
+    "wrangler": "^4.156.0"
   }
 }
